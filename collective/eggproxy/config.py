@@ -37,6 +37,7 @@ config.set("eggproxy", "eggs_directory", "/var/www")
 config.set("eggproxy", "index", 'http://pypi.python.org/simple')
 config.set("eggproxy", "update_interval", '24')
 config.set("eggproxy", "port", '8888')
+config.set("eggproxy", "host", '127.0.0.1')
 config.set("eggproxy", "always_refresh", '0')
 config.set("eggproxy", "timeout", '3')
 
